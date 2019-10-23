@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.tic-tac-toe {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.square-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.board-row {
+    display: block;;
+}
+
+.square {
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 0;
+    font-size: 100px;
+}
+
+.status {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.button {
+    padding: 20px;
+    margin-top: 20px;
+}
